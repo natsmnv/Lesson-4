@@ -1,9 +1,3 @@
-// Створити скрипт який повинен виконувати наступне:
-// питаємо у користувача, що він хоче зробити (add, sub, mult, div);
-// питаємо у користувача перше число;
-// запитуємо у користувача друге число;
-// виводимо результат дії (add, sub, mult, div) з усіма операндами (Наприклад "2 + 3 = 5").
-
 let choice = prompt(`What do you want to do?`);
 let firstNum = Number(prompt(`Enter first number: `));
 let secNum = Number(prompt(`Enter second number: `));
