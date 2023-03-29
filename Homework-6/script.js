@@ -7,7 +7,7 @@ let age = yearNow - yearOfBirth;
 alert(`${yearOfBirth === 0 
     ? 'Why don`t you enter your year of birth?' 
     : `You are ${yearNow - yearOfBirth} years old.`}
-    ${city === null 
+${city === null 
     ? 'Why don`t you enter your city?' 
     : city === 'Kyiv' 
     ? `You live in the capital ${city}.`
@@ -16,7 +16,7 @@ alert(`${yearOfBirth === 0
     : city === 'London' 
     ? `You live in the capital ${city}.`
     : `You live in city ${city}.`}
-    ${sport === null 
+${sport === null 
     ? 'Why don`t enter your favorite type of sport?' 
     : sport === 'boxing' 
     ? 'Cool! Do you want to be an Oleksandr Usyk?'
